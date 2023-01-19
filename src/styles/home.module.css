@@ -1,0 +1,20 @@
+.placeholder {
+  font-size: 4rem;
+}
+.background {
+  background-color: black;
+  color: azure;
+  display: flex;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
