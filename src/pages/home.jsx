@@ -1,6 +1,7 @@
 import styles from '../styles/home.module.css'
-import Header from '../components/header'
-import Project from '../components/project'
+import Header from '../components/header.jsx'
+import Project from '../components/project.jsx'
+import Footer from '../components/footer.jsx'
 
 export default function Home() {
   return (
