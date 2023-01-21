@@ -1,6 +1,6 @@
-import styles from '../styles/about.module.css'
-import Footer from '../components/footer.jsx'
-import Header from '../components/header.jsx'
+import styles from "../styles/about.module.css";
+import Footer from "../components/footer.jsx";
+import Header from "../components/header.jsx";
 
 export default function About() {
   return (
@@ -14,5 +14,5 @@ export default function About() {
       </main>
       <Footer />
     </body>
-  )
+  );
 }
