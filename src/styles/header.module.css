@@ -1,3 +1,29 @@
-.placeholder {
-    font-size: 4rem;
-  }
+.header {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3.75%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  color: azure;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkhome {
+  display: flex;
+  flex-direction: row;
+  font-size: 3rem;
+  color: azure;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}

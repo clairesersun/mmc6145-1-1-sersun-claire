@@ -1,8 +1,5 @@
-import styles from '../styles/footer.module.css'
+import styles from "../styles/footer.module.css";
 
 export default function Footer() {
-  return (
-    <footer>&copy 2023 Claire Sersun</footer>
-  )
+  return <footer className={styles.footer}>&copy; Claire Sersun 2023</footer>;
 }
-

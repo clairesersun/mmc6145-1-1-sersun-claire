@@ -1,3 +1,39 @@
-.placeholder {
-    font-size: 4rem;
-  }
+.background {
+  background-color: black;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  width: 100vw;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 100vw;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  width: auto;
+}
+
+.toptext {
+  align-self: flex-start;
+  font-size: 3rem;
+}
+
+.content {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}

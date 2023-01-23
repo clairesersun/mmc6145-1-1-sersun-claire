@@ -19,10 +19,10 @@ const projCompleted = [
 
 export default function Projects() {
   const projItems = projCompleted.map((proj) => (
-    <div>
-      <a href={proj.href} className={styles.placeholder}>
+    <div key={proj.id}>
+      <a href={proj.href} className={styles.project}>
         <p>{proj.name}</p>
-        <img src={proj.src} alt={proj.alt}></img>
+        <img className={styles.projectimg} src={proj.src} alt={proj.alt}></img>
       </a>
     </div>
   ));

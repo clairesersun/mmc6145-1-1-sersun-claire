@@ -4,20 +4,35 @@ import Footer from "../components/footer.jsx";
 
 export default function Contact() {
   return (
-    <body>
-      <header>
+    <div className={styles.background}>
+      <header className={styles.header}>
         <Header />
       </header>
-      <main>
-        <h1 className={styles.placeholder}>Let's Connect!</h1>
-        <h2>Email</h2>
-        <p>clairesersun@ufl.edu</p>
-        <h2>Social Links</h2>
-        <a href="https://www.linkedin.com/in/clairesersun/"> LinkedIn</a>
-        <a href="https://github.com/clairesersun"> GitHub</a>
-        <a href="https://www.instagram.com/clairesersun/?hl=en"> Instagram</a>
+      <main className={styles.main}>
+        <h1 className={styles.toptext}>Let's Connect!</h1>
+        <h2 className={styles.content}>Email</h2>
+        <p className={styles.content}>clairesersun@ufl.edu</p>
+        <h2 className={styles.content}>Social Links</h2>
+        <a
+          href="https://www.linkedin.com/in/clairesersun/"
+          className={styles.content}
+        >
+          {" "}
+          LinkedIn
+        </a>
+        <a href="https://github.com/clairesersun" className={styles.content}>
+          {" "}
+          GitHub
+        </a>
+        <a
+          href="https://www.instagram.com/clairesersun/?hl=en"
+          className={styles.content}
+        >
+          {" "}
+          Instagram
+        </a>
       </main>
       <Footer />
-    </body>
+    </div>
   );
 }

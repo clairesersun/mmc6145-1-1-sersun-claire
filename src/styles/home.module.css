@@ -1,21 +1,62 @@
-.placeholder {
-  font-size: 4rem;
-}
-
 .background {
   background-color: black;
   color: azure;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  width: 100vw;
 }
 
 .header {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  width: 100vw;
+}
+
+.topsection {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  width: auto;
+  height: auto;
+}
+
+.headshot {
+  align-self: flex-end;
+  height: 55vh;
+  width: auto;
+  padding-top: 5%;
+}
+
+.toptext {
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 7rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.aboutlink {
+  color: bisque;
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 2rem;
+  width: 100vw;
 }

@@ -5,19 +5,27 @@ import Footer from "../components/footer.jsx";
 
 export default function Home() {
   return (
-    <body className={styles.background}>
+    <div className={styles.background}>
       <Header />
-      <section>
-        <p>Claire Sersun</p>
-        <p>Web Developer</p>
-        <a href="/About">About Me</a>
+      <section className={styles.topsection}>
+        <img
+          src="../src/components/ClaireSersun_Picture.jpg"
+          alt="Claire's Headshot"
+          className={styles.headshot}
+        ></img>
+        <div className={styles.toptext}>
+          <p className={styles.name}>Claire Sersun</p>
+          <p className={styles.title}>Web Developer</p>
+          <a href="/About" className={styles.aboutlink}>
+            About Me
+          </a>
+        </div>
       </section>
       <main className={styles.main}>
-        <h1 className={styles.placeholder}>I'm the home page!</h1>
-        <h2>Work</h2>
+        <h1>Work</h1>
         <Projects />
       </main>
       <Footer />
-    </body>
+    </div>
   );
 }
