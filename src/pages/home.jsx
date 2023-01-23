@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <section className={styles.topsection}>
         <img
-          src="../src/components/ClaireSersun_Picture.jpg"
+          src="src/components/ClaireSersun_Picture.jpg"
           alt="Claire's Headshot"
           className={styles.headshot}
         ></img>
