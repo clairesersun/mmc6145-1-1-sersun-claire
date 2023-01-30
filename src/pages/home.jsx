@@ -3,7 +3,7 @@ import Header from "../components/header.jsx";
 import Projects from "../components/project.jsx";
 import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
-import myHeadUrl from "src/components/ClaireSersun_Picture.jpg";
+import myHeadUrl from "../components/ClaireSersun_Picture.jpg";
 
 export default function Home() {
   return (

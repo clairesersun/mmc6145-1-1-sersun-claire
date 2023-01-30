@@ -1,6 +1,6 @@
 import styles from "../styles/project.module.css";
-import valletoImgUrl from "src/components/valletodesktop.png";
-import testiImgUrl from "src/components/griddesktop.png";
+import valletoImgUrl from "../components/valletodesktop.png";
+import testiImgUrl from "../components/griddesktop.png";
 
 const projCompleted = [
   {
